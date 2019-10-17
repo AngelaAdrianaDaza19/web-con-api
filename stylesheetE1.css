@@ -1,0 +1,47 @@
+body
+{
+	background-color: #FFF8DC;
+	font-family: "Helvetica",Arial;
+}
+	
+h1
+{
+	color: #696969
+	margin: 0 auto;
+	text-align: center;
+}
+p
+{
+	margin: 0 auto;
+	text-align: left;
+	color: #696969	;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a
+{
+	color: #e44e2d;
+	font-weight: bold;
+}
+
+table
+{
+   width:90%;
+   border: 1px solid #000;
+}
+th, td 
+{
+   width: 20%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
+label
+{
+	margin: 0 auto;
+	text-align: left;
+	color: #696969	;
+	cursor: pointer;
+	font-weight: bold;
+}
