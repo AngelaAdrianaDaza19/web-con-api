@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>consulta climatica</title>
+    <script type="text/javascript" src="https://api.openweathermap.org/data/2.5/weather?q={city name} sesor=true"></script>
+        <link rel="stylesheet" href="stylesheetE1.css">
+    <script>
+    function consultar()
+    {
+        // obtenemos la ciudad a consultar
+        var Ciudad=document.forms["form1"].elements[0].value;
+        // Capturamos el nombre de la ciudad en mostrar       
+        document.getElementById("mostrar").innerHTML
+    }
+     function TemptAct()
+     {
+          Ciudad = "mostrar"    
+          tempt =  openweathermap.org/find?q= 'Ciudad' (document.getElementById('tempt')
+      }     
+    </script>
+    <style>
+        form   
+        {overflow: hidden;float: left; width:400px;height:280px;border:1px solid #ccc;padding:10px margin 0;}
+    </style>
+</head>
+<body>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1>CONSULTA CLIMÁTICA</h1>
+            </hgroup>   
+        </header>
+        <section>
+            <div id="consulta">
+                <form id="form1">
+                    <label for="ciudad">CIUDAD:</label>
+                    <input type="text" id="ciudad"placeholder='ciudad a consultar'required>
+                    <input type='submit'value='CONSULTAR' onclick="consultar()">
+                </form>
+        </section>
+            <div id="mostrar" showview = "mostrar" >
+            </div>
+            </div>
+            <div id="resatual">
+                <form id="mostrar">
+                    <p>TEMPERATURA Y CLIMA ACTUAL </p>
+                     <label for="consultar"></label>
+                    <img src="https://openweathermap.org/city">
+                </form> 
+            </div>
+            <div id="resprox">
+                <form id="mostrar">
+                    <p>PROXIMOS 5 DIAS </p>
+                     <label for="consultar"></label>
+                     <br>
+                    <br><img src="https://openweathermap.org/city">
+                    <br>    
+                   <br> <table>
+                        <tr>
+                            <th>dialist1</th>
+                            <th>dialist2</th>
+                            <th>dialist3</th>
+                            <th>dialist4</th>
+                            <th>dialist5</th>
+                        </tr>
+                        <tr>
+                            <td>temd1</td>
+                            <td>temd2</td>
+                            <td>temd3</td>
+                            <td>temd4</td>
+                            <td>temd5</td>
+                        </tr>
+                         <tr>
+                            <td>imagd1</td>
+                            <td>imagd2</td>
+                            <td>imagd3</td>
+                            <td>imag4</td>
+                            <td>imag5</td>
+                        </tr>
+                    </table>
+                </form> 
+            </div>
+    </body> 
